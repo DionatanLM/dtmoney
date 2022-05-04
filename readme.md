@@ -3,8 +3,8 @@
 </h1>
 
 <p align="center">
-  <img alt="dashboard" src=".github/dashboard.png" width="100%">
-  <img alt="cadastrar" src=".github/cadastrar.png" width="100%">
+  <img alt="dashboard" src=".github/dashboard.PNG" width="100%">
+  <img alt="cadastrar" src=".github/cadastrar.PNG" width="100%">
 </p>
 
 <br/>
