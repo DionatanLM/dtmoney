@@ -15,14 +15,15 @@ interface NewTransactionModalProps {
   
 }
 
-export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModalProps){
+export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionModalProps){
 
   const {createTransaction} = useTransactions();
 
   const [title, setTitle] = useState('');
   const [amount, setAmount] = useState(0);
-  const [category, setCategory] = useState('');
   const [type, setType] = useState('deposit');
+  const [category, setCategory] = useState('');
+  
   
   async function handleCreateNewTransaction(event: FormEvent){
       event.preventDefault();
@@ -32,7 +33,7 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModa
        amount,
        category,
        type,
-     })
+     });
 
      setTitle('');
      setAmount(0);
@@ -60,8 +61,8 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModa
       <Container onSubmit={handleCreateNewTransaction}>
          <h2>Cadastrar transação</h2>
 
-              <input 
-          placeholder='Titulo' 
+        <input 
+          placeholder="Titulo" 
           value={title}
           onChange={event => setTitle(event.target.value)}
           />
@@ -76,7 +77,7 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModa
           <TransactionTypeContainer>
             <RadioBox 
               type="button"
-              onClick={() => { setType('deposit'); }}
+              onClick={() => { setType('deposit')}}
               isActive={type === 'deposit'}
               activeColor="green"
             >
@@ -85,8 +86,8 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModa
             </RadioBox>
 
             <RadioBox 
-              type="button"
-              onClick={() => { setType('withdraw'); }}
+            type="button"
+              onClick={() => { setType('withdraw') }}
               isActive={type === 'withdraw'}
               activeColor="red"
             >
@@ -96,7 +97,7 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModa
           </TransactionTypeContainer>
 
           <input 
-          placeholder='Categoria' 
+          placeholder="Categoria" 
           value={category}
           onChange={event => setCategory(event.target.value)}
           />
