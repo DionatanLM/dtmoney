@@ -43,5 +43,5 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 ---
 
 Feito com :purple_heart: by [Dionatan LM](https://github.com/DionatanLM)
-[![Linkedin Badge](https://img.shields.io/badge/-Dionatan%20LM-005eff?style=flat-square&logo=Linkedin&logoColor=5429cc&link=https://www.linkedin.com/in/dionatanlm/)](https://www.linkedin.com/in/dionatanlm/)
-[![Gmail Badge](https://img.shields.io/badge/-dionatanlm12271@gmail.com-005eff?style=flat-square&logo=Gmail&logoColor=5429cc&link=mailto:dionatanlm12271@gmail.com)](mailto:dionatanlm12271@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Dionatan%20LM-5429cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/dionatanlm/)](https://www.linkedin.com/in/dionatanlm/)
+[![Gmail Badge](https://img.shields.io/badge/-dionatanlm12271@gmail.com-5429cc?style=flat-square&logo=Gmail&logoColor=white&link=mailto:dionatanlm12271@gmail.com)](mailto:dionatanlm12271@gmail.com)
