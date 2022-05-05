@@ -3,6 +3,14 @@
 </h1>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/made%20by-DIONATAN%20LM-5429cc?style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DionatanLM/dtmoney?color=5429cc&style=flat-square">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/DionatanLM/dtmoney?color=5429cc&style=flat-square">
+  <a href="https://opensource.org/licenses/MIT">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-5429cc?style=flat-square">
+  </a>
+
+<p align="center">
   <img alt="dashboard" src=".github/dashboard.png" width="100%">
   <img alt="cadastrar" src=".github/cadastrar.png" width="100%">
 </p>
@@ -33,3 +41,7 @@ O dtmoney é uma aplicação de controle financeiro, foi desenvolvida durante as
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/YxJlk0hPkU0o0c1JvD7YmV/dtmoney-Ignite). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ---
+
+Feito com :blue_heart: by [Dionatan LM](https://github.com/DionatanLM)
+[![Linkedin Badge](https://img.shields.io/badge/-Dionatan%20LM-005eff?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/dionatanlm/)](https://www.linkedin.com/in/dionatanlm/)
+[![Gmail Badge](https://img.shields.io/badge/-dionatanlm12271@gmail.com-005eff?style=flat-square&logo=Gmail&logoColor=white&link=mailto:dionatanlm12271@gmail.com)](mailto:dionatanlm12271@gmail.com)
